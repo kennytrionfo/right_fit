@@ -1,5 +1,13 @@
 source 'https://rubygems.org'
 
+#————Inserted by me————Kenny Trionfo Feb 28,2015————
+group :development do
+  gem "better_errors"
+end
+gem 'byebug', '~> 3.5.1'
+
+
+
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.1.5'
@@ -35,6 +43,4 @@ gem 'spring',        group: :development
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-# Use debugger
-# gem 'debugger', group: [:development, :test]
 
