@@ -6,6 +6,7 @@ group :development do
 end
 gem 'byebug', '~> 3.5.1'
 gem 'masonry-rails', '~> 0.2.1'
+gem 'bootstrap-sass', '~> 3.2.0.2'
 
 
 
