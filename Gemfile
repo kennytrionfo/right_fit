@@ -5,6 +5,7 @@ group :development do
   gem "better_errors"
 end
 gem 'byebug', '~> 3.5.1'
+gem 'masonry-rails', '~> 0.2.1'
 
 
 
