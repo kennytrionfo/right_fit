@@ -1,9 +1,22 @@
 <p id="notice"><%= notice %></p>
 
-<div class="container">
-	<h3 class="todo_list_title_bar"><%= @todo_list.title %></h3>
+<div class="todo_list_title_bar">
+	<h2><%= @todo_list.title %></h2>
 	<p class="todo_list_sub_title"><%= @todo_list.description %></p>
 </div>
+
+
+<div class="transitions-enabled" id="dishes">
+  <% @todo_list.todo_items.each do |todo_items| %>
+    <div class="box panel panel-default">
+    <%= render @todo_list.todo_items %>
+      <div class="panel-body"></div>
+      <p class="user">
+      </p>
+    </div>
+  <% end %>
+</div>
+
 
 
 <div class="container">
